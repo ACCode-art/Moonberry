@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+/* ------------moonberry------------------------   */
+
+/* ----------components---------- */
+
+/* -----containers----- */
+
+.screen-8 {
+  height: 8%;
+}
+
+.hdr {
+  height: 8%;
+}
+
+.screen-half {
+  height: 50%;
+}
+
+.hero {
+  height: 60%;
+}
+
+.screen-92 {
+  height: 92%;
+}
+
+.screen-full {
+  height: 100%;
+}
+
+.hdr-left {
+  height: 100%;
+  width: 30%;
+}
+
+.hdr-right {
+  height: 100%;
+  width: 70%;
+}
+
+/* -----buttons----- */
+
+.btn-sm {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 40px;
+  transition: 300ms;
+}
+
+.btn-sm:hover {
+  color: black;
+  background-color: #fbfbff;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.crd-sm {
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+}
+
+.crd-med {
+  width: 400px;
+  height: 400px;
+}
+
+/* fonts */
+
+/* font sizing */
+
+.font-sm {
+  font-size: 10px;
+}
+.font-md {
+  font-size: 20px;
+}
+.font-lrg {
+  font-size: 30px;
+}
+
+.font-h1 {
+  font-size: 150px;
+}
+
+.font-h2 {
+  font-size: 100px;
+}
+
+.font-h3 {
+  font-size: 75px;
+}
+
+.font-h4 {
+  font-size: 50px;
+}
+
+/* padding */
+
+.pd-l-10 {
+  padding-left: 10px;
+}
+
+.pd-lr-10 {
+  padding: 0 10px;
+}
+
+.pd-lr-30 {
+  padding: 0 30px;
+}
+
+.pd-lr-50 {
+  padding: 0 50px;
+}
+
+/* margin */
+
+.mg-lr-10 {
+  margin: 0 10px;
+}
+
+.mg-lr-30 {
+  margin: 0 30px;
+}
+
+.mg-lr-50 {
+  margin: 0 50px;
+}
+
+/* display */
+
+.flex {
+  display: flex;
+}
+
+.flex-c {
+  display: flex;
+  align-items: center;
+}
+
+.flex-sb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-c-c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-c-sb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-c-c-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* text colors */
+
+.white {
+  color: #ffffff;
+}
+
+.moonberry {
+  color: #fbfbff;
+}
+
+.moonberry-light {
+  color: #ebebff;
+}
+
+.red {
+  color: #b23a48;
+}
+
+.blue {
+  color: #3a5683;
+}
+
+.green {
+  color: #70b77e;
+}
+
+/* background colors */
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-moonberry {
+  background-color: #fbfbff;
+}
+
+.bg-moonberry-light {
+  background-color: #ebebff;
+}
+
+.bg-red {
+  background-color: #b23a48;
+}
+
+.bg-blue {
+  background-color: #3a5683;
+}
+
+.bg-green {
+  background-color: #70b77e;
+}
