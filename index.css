@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Lora:wght@400;700&family=Poppins:wght@200;400;700&display=swap");
+
+/* ----------------------------------------------------------moonberry------------------------------------------------------*/
+
+/* inital styling! */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,11 +12,8 @@
 
 body {
   height: 100vh;
+  font-size: 18px;
 }
-
-/* ------------moonberry------------------------   */
-
-/* ----------components---------- */
 
 /* -----containers----- */
 
@@ -18,16 +21,12 @@ body {
   height: 8%;
 }
 
-.hdr {
-  height: 8%;
-}
-
 .screen-half {
   height: 50%;
 }
 
-.hero {
-  height: 60%;
+.screen-70 {
+  height: 70%;
 }
 
 .screen-92 {
@@ -38,14 +37,88 @@ body {
   height: 100%;
 }
 
+/* -----pre-made-components----- */
+
+.hdr {
+  height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.hdr-two {
+  height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 500px;
+}
+
+.hdr-three {
+  height: 8%;
+  display: flex;
+  align-items: center;
+  padding: 0 500px;
+}
+
 .hdr-left {
   height: 100%;
-  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.hdr-left-two {
+  height: 100%;
+  width: 35%;
+  display: flex;
+  align-items: center;
 }
 
 .hdr-right {
   height: 100%;
-  width: 70%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hdr-logo {
+  width: 50px;
+}
+
+#hdr-input {
+  margin-left: 20px;
+  height: 40%;
+  width: 300px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.hero {
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero-full {
+  position: relative;
+  height: 92%;
+  background-color: rgb(128, 61, 61);
+}
+
+#hero-full-img {
+  height: 100%;
+  width: 100%;
+}
+
+#hero-full-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* -----buttons----- */
@@ -77,8 +150,23 @@ body {
   width: 400px;
   height: 400px;
 }
+.crd-lrg {
+  width: 400px;
+  height: 600px;
+}
 
 /* fonts */
+
+.font-kiwi {
+  font-family: "Kiwi Maru", serif;
+}
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-lora {
+  font-family: "Lora", serif;
+}
 
 /* font sizing */
 
@@ -92,23 +180,27 @@ body {
   font-size: 30px;
 }
 
-.font-h1 {
+.h1 {
   font-size: 150px;
 }
 
-.font-h2 {
+.h2 {
   font-size: 100px;
 }
 
-.font-h3 {
+.h3 {
   font-size: 75px;
 }
 
-.font-h4 {
+.h4 {
   font-size: 50px;
 }
 
 /* padding */
+
+.pd-50 {
+  padding: 50px;
+}
 
 .pd-l-10 {
   padding-left: 10px;
@@ -125,6 +217,9 @@ body {
 .pd-lr-50 {
   padding: 0 50px;
 }
+.pd-lr-250 {
+  padding: 0 250px;
+}
 
 /* margin */
 
@@ -138,6 +233,26 @@ body {
 
 .mg-lr-50 {
   margin: 0 50px;
+}
+
+.mg-t-10 {
+  margin-top: 10px;
+}
+
+.mg-t-20 {
+  margin-top: 20px;
+}
+
+.mg-t-30 {
+  margin-top: 30px;
+}
+
+.mg-t-50 {
+  margin-top: 50px;
+}
+
+.line-space {
+  line-height: 1.5;
 }
 
 /* display */
@@ -180,6 +295,9 @@ body {
 .white {
   color: #ffffff;
 }
+.black {
+  color: black;
+}
 
 .moonberry {
   color: #fbfbff;
@@ -207,11 +325,11 @@ body {
   background-color: #ffffff;
 }
 
-.bg-moonberry {
+.bg-moonberry-light {
   background-color: #fbfbff;
 }
 
-.bg-moonberry-light {
+.bg-moonberry {
   background-color: #ebebff;
 }
 
